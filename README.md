@@ -1,6 +1,6 @@
 # Echo Sequences with Long Short-Term Memory (LSTM) Networks
 
-*a project demonstrating the persistent memory of Encoder-Decoder LSTMs via their ability to "remember" randomly generated number sequences, with custom-generated data and encoding, implemented using the Keras library.*
+*a project demonstrating the persistent memory of recurrent neural network (RNN) Encoder-Decoder LSTMs via their ability to "remember" randomly generated number sequences, with custom-generated data and encoding, implemented using the Keras library.*
 
 code available in [this jupyter notebook](https://github.com/disesdi/echo_sequence_lstm/blob/9f9410e9b315259277e9c3ba685a580fd374d1e7/echo_sequences_with_lstm.ipynb)
 
