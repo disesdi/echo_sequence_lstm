@@ -10,6 +10,8 @@ this project uses the `randint()` function from the python 3 `random` module to 
 
 i also implemented a custom encoder function, `one_hot_encoder`, which creates a vector of binary values for each possible feature in the dataset.
 
+## model definition
+
 the model is defined with three layer types from the `keras.models` module: `Sequential`, `LSTM`, and `Dense`.
 
 
