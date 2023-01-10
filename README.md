@@ -2,6 +2,8 @@
 
 *a project demonstrating the persistent memory of Encoder-Decoder LSTMs via their ability to "remember" randomly generated number sequences, with custom-generated data and encoding, implemented using the Keras library.*
 
+code available in [this jupyter notebook](https://github.com/disesdi/echo_sequence_lstm/blob/9f9410e9b315259277e9c3ba685a580fd374d1e7/echo_sequences_with_lstm.ipynb)
+
 ## generating training data
 
 the echo sequence prediction problem asks for the value of a specific index in a vector of random values (in this case, *integers*) that the model has "learned." for this project, the problem space is defined as integers between `0` and `99`.
