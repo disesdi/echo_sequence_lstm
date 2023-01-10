@@ -1,6 +1,6 @@
 # Echo Sequences with Long Short-Term Memory (LSTM) Networks
 
-*this project demonstrates persistent memory of Encoder-Decoder LSTMs via their ability to "remember" randomly generated number sequences.*
+*a project demonstrating the persistent memory of Encoder-Decoder LSTMs via their ability to "remember" randomly generated number sequences, using custom-generated data and encoding, implemented using the Keras library.*
 
 ## generating training data
 
@@ -12,10 +12,17 @@ i also implemented a custom encoder function, `one_hot_encoder`, which creates a
 
 ## model definition
 
-the model is defined with three layer types from the `keras.models` module: `Sequential`, `LSTM`, and `Dense`.
+the model is built using the `Sequential` module from `keras.models`.
+
+the `Sequential` model is defined with two layers: an LSTM layer with 25 memory units, and a fully connected dense layer with one neuron per feature.
+
+i used two layer types from the `keras.models` module:  `LSTM`, and `Dense`.
 
 
 ## more information
+
+Working with RNNs (Keras):
+https://keras.io/guides/working_with_rnns/
 
 python 3 random module documentation:
 https://docs.python.org/3/library/random.html
