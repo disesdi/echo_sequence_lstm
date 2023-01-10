@@ -10,7 +10,9 @@ the echo sequence prediction problem asks for the value of a specific index in a
 
 this project uses the `randint()` function from the python 3 `random` module to generate random integers within the specified range, implemented in a home-made function called `make_seq`.
 
-i also implemented a custom encoder function, `one_hot_encoder`, which creates a vector of binary values for each possible feature in the dataset. see below:
+i also built a custom encoder function, `one_hot_encoder`, which creates a vector of binary values for each possible feature in the dataset. 
+
+see below:
 
 ![image](https://user-images.githubusercontent.com/110150470/211440503-dba9035c-9d45-43c2-87ea-b06c0c97306e.png)
 
