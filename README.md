@@ -10,13 +10,27 @@ this project uses the `randint()` function from the python 3 `random` module to 
 
 i also implemented a custom encoder function, `one_hot_encoder`, which creates a vector of binary values for each possible feature in the dataset.
 
-## model definition
+## model definition & compiling
 
 the model is built using the `Sequential` module from `keras.models`.
 
 the `Sequential` model is defined with two layers: an LSTM layer with 25 memory units, and a fully connected dense layer with one neuron per feature.
 
 i used two layer types from the `keras.models` module:  `LSTM`, and `Dense`.
+
+![image](https://user-images.githubusercontent.com/110150470/211439008-497ebcab-a542-427f-8ae2-6aafc6be41ce.png)
+
+this model uses the [log loss function](https://keras.io/api/losses/), specified under the loss parameter as `categorical_crossentropy`.
+
+for its optimizer, the model uses the [adam optimizer](https://keras.io/api/optimizers/adam/), and outputs accuracy measurements `acc` each epoch. see code below.
+
+![image](https://user-images.githubusercontent.com/110150470/211439105-4670dced-06e4-4547-a754-3bb8c16c4f5e.png)
+
+## evaluation
+
+i built a simple function to test model accuracy called `eval_model` 
+
+![image](https://user-images.githubusercontent.com/110150470/211439350-ae032780-ebb7-4498-a932-8d087649dedb.png)
 
 
 ## more information
