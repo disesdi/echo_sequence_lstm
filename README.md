@@ -1,4 +1,4 @@
-# Echo Sequences with Long Short Term Memory (LSTM) Networks
+# Echo Sequences with Long Short-Term Memory (LSTM) Networks
 
 *this project demonstrates persistent memory of Encoder-Decoder LSTMs via their ability to "remember" randomly generated number sequences.*
 
